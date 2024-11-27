@@ -1,0 +1,71 @@
+.logo{
+   grid-area: logo;
+
+}
+.header{
+    grid-area: header;
+    text-align: end;    
+}
+.nav{
+    grid-area: nav;
+    text-align: center;
+}
+.main{
+    grid-area: main;
+    height: 300px;
+    text-align: center;
+
+}
+
+.footer{
+    grid-area: footer;
+}
+
+@font-face {
+    font-family: Inter Store;
+    src: url(/OpenSans-Italic-VariableFont_wdth\,wght\ -\ copia.ttf);
+}
+
+
+.Empresa {
+    color: black;
+    font-family: Inter store;
+    text-align: center;
+}
+
+
+.grid-container{
+    background-color: blue;
+    border-color: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    display: grid;
+    /*grid-template-areas: 'header header header header header'
+                         'nav main main main article'
+                         'nav footer footer footer footer';*/
+    
+    grid-template-areas: 'logo header header header header'
+                         'nav nav nav nav nav'
+                         'main main main main main'
+                         'footer footer footer footer footer'
+                        ;                     
+}
+
+.grid-container div{
+
+    background-color: navajowhite;
+    border: 2px solid rgb(154, 38, 154);
+
+}
+
+a{
+    font-family: arial;
+    text-decoration: none;
+    background-color: plum;
+    margin: 5px;
+    font-weight:bold ;
+}
+
+
+
+
