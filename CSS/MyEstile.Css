@@ -74,4 +74,26 @@ a{
     display: block;
 }
 
+#Somos{
+    display: none;
+}
+#Somos:target{
+    display: block;
+}
+
+#Productos{
+    display: none;
+}
+#Productos:target{
+    display: block;
+}
+
+#Contactanos{
+    display: none;
+}
+
+#Contactanos:target{
+    display: block;
+}
+
 
