@@ -4,11 +4,17 @@
 }
 .header{
     grid-area: header;
-    text-align: end;    
+    text-align: end;  
+    font-family: Inter store;  
 }
 .nav{
     grid-area: nav;
     text-align: center;
+    background-color: black;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
 .main{
     grid-area: main;
@@ -19,6 +25,12 @@
 
 .footer{
     grid-area: footer;
+    text-align: center;
+}
+
+a:hover{
+    background-color: black;
+    color: blue;
 }
 
 @font-face {
@@ -64,6 +76,10 @@ a{
     background-color: plum;
     margin: 5px;
     font-weight:bold ;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 #Home{
