@@ -66,6 +66,12 @@ a{
     font-weight:bold ;
 }
 
+#Home{
+    display: none;
+}
 
+#Home:target{
+    display: block;
+}
 
 
